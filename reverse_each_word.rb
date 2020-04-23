@@ -1,6 +1,6 @@
 def reverse_each_word(sentence)
   reversed_sentence = []
-  sentence.split(/\b/).each do |word|
+  sentence.split(/ /).each do |word|
     reversed_sentence << word.reverse
   end
   reversed_sentence.join
